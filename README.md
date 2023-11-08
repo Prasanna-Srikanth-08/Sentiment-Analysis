@@ -17,6 +17,21 @@ In local whenever application runs, it starts on port 8080. If user wishes to ch
 
 in application.properties.
 
+Dependancies:-
+
+	<dependency>
+		<groupId>edu.stanford.nlp</groupId>
+		<artifactId>stanford-corenlp</artifactId>
+		<version>4.5.4</version>
+	</dependency>
+
+	<dependency>
+		<groupId>edu.stanford.nlp</groupId>
+		<artifactId>stanford-corenlp</artifactId>
+		<version>4.5.4</version>
+		<classifier>models</classifier>
+	</dependency>
+
 Request Body:-
 
 {
